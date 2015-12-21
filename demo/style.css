@@ -1,0 +1,55 @@
+html,body {
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100%;
+}
+#slider_container{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: white;
+    overflow: hidden;
+}
+#slider{
+    height: 100%;
+    width: 500%;
+    transform: translateX(0);
+    transition: all 0.9s ease-out;
+}
+.slide {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.slide h2 {
+    color: rgba(100,100,100,0.5);
+    font-size: 4em;
+}
+#slide2 {
+    background: blue;
+}
+#slide2 h2 {
+    color: rgba(165, 201, 189, 0.7);
+}
+#slide3 {
+    background: yellow;
+}
+#slide3 h2 {
+    color: rgba(155,100,100,1);
+}
+#slide4{
+    background: gray;
+}
+#slide4 h2{
+    color: rgba(77, 177, 201, 0.8);
+}
+.holder{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.content{
+    display: table-cell;
+    vertical-align: middle;
+}
